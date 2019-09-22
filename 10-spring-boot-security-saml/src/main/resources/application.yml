@@ -1,0 +1,12 @@
+server:
+  port: 9000
+  ssl:
+    enabled: true
+    key-alias: spring
+    key-store: src/main/resources/saml/keystore.jks
+    key-store-password: secret
+
+security:
+  saml2:
+      metadata-url: https://dev-166769.oktapreview.com/app/exkegd6et8WTm4QlT0h7/sso/saml/metadata
+  
